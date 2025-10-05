@@ -7,6 +7,8 @@ import LandingPage from "./pages/LandingPage";
 import Dashboard from "./pages/Home/Dashboard";
 import InterviewPrep from "./pages/InterviewPrep/InterviewPrep";
 import UserProvider from './context/userContext';
+import Contactus from './pages/Contactus';
+// import { Contact } from 'lucide-react';
 const App = () => {
   return (
     <UserProvider>
@@ -19,6 +21,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} /> */}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/interview-prep/:sessionId" element={<InterviewPrep />} />
+          <Route path="/contact" element={<Contactus />} /> {/* ✅ Contact route */}
         </Routes>
         </Router>
         <Toaster
