@@ -8,6 +8,9 @@ import Dashboard from "./pages/Home/Dashboard";
 import InterviewPrep from "./pages/InterviewPrep/InterviewPrep";
 import UserProvider from './context/userContext';
 import Contactus from './pages/Contactus';
+import ResumeBuilder from './pages/Resume_builder';
+import Softskill from './pages/Softskill';
+import Mocktest from './pages/Mocktest';
 // import { Contact } from 'lucide-react';
 const App = () => {
   return (
@@ -22,6 +25,9 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/interview-prep/:sessionId" element={<InterviewPrep />} />
           <Route path="/contact" element={<Contactus />} /> {/* ✅ Contact route */}
+          <Route path="/resume" element={<ResumeBuilder />} /> {/* ✅ Resume route */}
+          <Route path="/softskill" element={<Softskill />} /> {/* ✅ Softskill route */}
+          <Route path="/mocktest" element={<Mocktest />} /> {/* ✅ Softskill route */}
         </Routes>
         </Router>
         <Toaster

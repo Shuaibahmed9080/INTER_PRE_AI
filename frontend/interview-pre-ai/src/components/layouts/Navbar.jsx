@@ -19,6 +19,24 @@ const Navbar = () => {
           >
             Contact Us
           </Link>
+          <Link
+            to="/resume"
+            className="text-gray-700 text-lg font-bold hover:text-[#FF9324] transition-colors duration-300"
+          >
+            Resume builder
+          </Link>
+          <Link
+            to="/softskill"
+            className="text-gray-700 text-lg font-bold hover:text-[#FF9324] transition-colors duration-300"
+          >
+            Softskill
+          </Link>
+          <Link
+            to="/mocktest"
+            className="text-gray-700 text-lg font-bold hover:text-[#FF9324] transition-colors duration-300"
+          >
+            Mock test
+          </Link>
         </div>
         <ProfileInfoCard />
       </div>
