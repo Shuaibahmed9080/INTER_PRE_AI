@@ -6,9 +6,9 @@ import Navbar from '../components/layouts/Navbar';
 const NUMBER_OF_QUESTIONS = 15; 
 
 // The JSON schema is retained as a reference for the mock data structure, but not actively used for generation.
-const quizResponseSchema = {
+// const quizResponseSchema = {
     // ... (Schema definition is kept for reference)
-};
+// };
 
 // ----------------------------------------------------------------------
 // --- MOCK DATA HELPER FUNCTIONS (API REPLACEMENT) ---
